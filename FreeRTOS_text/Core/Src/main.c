@@ -14,9 +14,10 @@
 void SystemClock_Config(void);
 // void MX_FREERTOS_Init(void);
 
+/* 用于测试 */
+
 int main(void)
 {
-
   HAL_Init();
   Key_Init();
   LED_Init();
